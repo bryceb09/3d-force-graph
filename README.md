@@ -3,7 +3,7 @@ Spring 2018 | Geography 4/572 | Geovisualization: Geovisual Analytics
 
 **Attribution:** [Vasco Asturiano](https://github.com/vasturiano)
 
-The force graph is created using D3 which is a JavaScript library used for visualizing data with HTML, SVG, and CSV. The graph will be comprised of nodes and links connecting information to form a graph that will have the ability to allow users to manipulate the graph through pulling the nodes, rotating the graph (since it has a 3D aspect), and mouse over to view the data that each node represents. 
+The force graph is created using D3 which, is a JavaScript library used for visualizing data with HTML, SVG, and CSV. The graph will be comprised of nodes and links connecting information to form a graph that will have the ability to allow users to manipulate through pulling the nodes, rotating the graph (since it has a 3D aspect), and mouse over to view the data that each node represents. 
 
 ## 1. Set up the workspace
 
