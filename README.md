@@ -15,14 +15,17 @@ We will begin by adding the `d3.js` file to your blank `HTML` by adding it insid
 <script src="https://unpkg.com/3d-force-graph@1.31.4/dist/3d-force-graph.js"></script>
 ```
 
-Once you have done that your document should look like this with the `d3.js` inside the `head` tag.
+## Step 1.1 Adding Style Tag
+
+As of now you have added the `d3.js` file to your blank `HTML` file. Now we will add the `style` tage to your document which will be placed in the `head` along with the `d3.js`. Once you have done that your `HTML` file should look like this.
 
 ```HTML
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Force Graph</title>
+    <style> body { margin: 0; } </style>
     <script src="https://unpkg.com/3d-force-graph@1.31.4/dist/3d-force-graph.js"></script>
 </head>
 <body>
