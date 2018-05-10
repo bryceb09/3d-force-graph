@@ -60,6 +60,8 @@ The first line of the `scrpit` is `const Graph = ForceGraph3D()` this means you 
         .linkDirectionalParticleSpeed(d => d.value * 0.001);
 ```
 
+## The Final Product
+
 
 
 
