@@ -33,4 +33,13 @@ As of now you have added the `d3.js` file to your blank `HTML` file. Now we will
 </body>
 </html>
 ```
+## Building the Graph
+
+Now that you have set the `style` and added the `d3.js` tile to your `HTML` file you will begin to build your graph. To do so begin by creating a `div` element which is a container for the `id` __3d-graph__ and you will add the `div` element indside the `body`.
+
+```HTML
+<div id="3d-graph"></div>
+```
+
+
 
