@@ -15,7 +15,7 @@ We will begin by adding the `d3.js` file to your blank `HTML` by adding it insid
 <script src="https://unpkg.com/3d-force-graph@1.31.4/dist/3d-force-graph.js"></script>
 ```
 
-## Step 1.1 Adding Style Tag
+## 1.1 Adding Style Tag
 
 As of now you have added the `d3.js` file to your blank `HTML` file. Now we will add the `style` tage to your document which will be placed in the `head` along with the `d3.js`. Once you have done that your `HTML` file should look like this.
 
@@ -33,13 +33,15 @@ As of now you have added the `d3.js` file to your blank `HTML` file. Now we will
 </body>
 </html>
 ```
-## Building the Graph
+## 2. Building the Graph
 
 Now that you have set the `style` and added the `d3.js` tile to your `HTML` file you will begin to build your graph. To do so begin by creating a `div` element which is a container for the `id` __3d-graph__ and you will add the `div` element indside the `body`.
 
 ```HTML
 <div id="3d-graph"></div>
 ```
+From this point you begin to add the `JavaScript` into your `HTML` file by adding the script below the `div` element while still within the `body`. To add the `JavaScript` to your document it need to be added whithin the tag `script` while still be all inside the `body`. The first line of the `scrpit` is `const Graph = ForceGraph3D()` this means you are creating a read-only reference to a value in this case the value of the `const graph` is `ForceGraph3D()`.    
+
 
 
 
