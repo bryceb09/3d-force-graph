@@ -40,7 +40,7 @@ Now that you have set the `style` and added the `d3.js` tile to your `HTML` file
 ```HTML
 <div id="3d-graph"></div>
 ```
-From this point you begin to add the `JavaScript` into your `HTML` file by adding the script below the `div` element while still within the `body`. To add the `JavaScript` to your document it need to be added whithin the tag `script` while still be all inside the `body`. The first line of the `scrpit` is `const Graph = ForceGraph3D()` this means you are creating a read-only reference to a value in this case the value of the `const graph` is ``` HTML ForceGraph3D()```.    
+From this point you will begin to add the `JavaScript` into your `HTML` file by adding the script below the `div` element while still being contained within the `body`. To add the `JavaScript` to your document it need to be added whithin the tag `script` while still be completely inside the `body`. The first line of the `scrpit` is `const Graph = ForceGraph3D()` this means you are creating a read-only reference to a value in this case the value of the `const graph` is `ForceGraph3D()`. The next line of code is ` (document.getElementById('3d-graph'))` this refers to the ability for your graph to return the element that has the `ID` attribute with the specified value in this case it's __3d-graph__.      
 
 
 
