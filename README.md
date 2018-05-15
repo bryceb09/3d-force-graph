@@ -62,7 +62,7 @@ The first line of the `script` is `const Graph = ForceGraph3D()` this means you 
 
 ## The Final Product
 
-<div class="index"
+<div class="READ.ME"
 <iframe sandbox="allow-popups allow-scripts allow-forms allow-same-origin" src="https://bryceb09.github.io/3d-force-graph/" marginwidth="0" marginheight="0" style="height:500px;" scrolling="no"></iframe>
 </div>
 
