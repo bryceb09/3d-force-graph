@@ -1,5 +1,5 @@
 # 3D Force Graph
-Single View | 5/15/2018 | Geovisualization: Geovisual Analytics | Author: Bryce Bradshaw 
+Single View | 5/15/2018 | Geovisualization: Geovisual Analytics | Author: [Bryce Bradshaw] (https://github.com/bryceb09)
 
 ![](img/image.jpg)
 
