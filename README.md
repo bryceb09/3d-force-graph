@@ -65,10 +65,20 @@ The first line of the `script` is `const Graph = ForceGraph3D()` this means you 
         .linkDirectionalParticleSpeed(d => d.value * 0.001);
 ```
 
+## Acknowledgement
+
+The main components of the 3D Force Graph was created by [Vasco Asturiano](https://github.com/vasturiano)
+
+
+
 
 
 ## References
 
+[1] [D3 website](https://d3js.org/)
 
+[2] [bl.ocks.org](https://bl.ocks.org/)
+
+[3] [D3 API reference](https://github.com/d3/d3/blob/master/API.md).
 
 
