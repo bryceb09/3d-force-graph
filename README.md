@@ -20,7 +20,7 @@ We will begin by adding the `d3.js` file to your blank `HTML` by adding it insid
 
 ## 1.1 Adding Style Tag
 
-As of now you have added the `d3.js` file to your blank `HTML` file. Now we will add the `style` tag to your document which will be placed in the `head` along with the `d3.js`. Once you have done that your `HTML` file should look like this. Its important to note that the graph uses `Canvas` rather than `SVG` so the font and colors cannot be changed. That being said the main difference between `SVG` and `Canvas` is `Canvas` draws 2D graphics on the fly with a `JavaScript` while `SVG` is `XML` based, which means that every element sn available within the `SVG` DOM.  
+As of now you have added the `d3.js` file to your blank `HTML` file. Now we will add the `style` tag to your document which will be placed in the `head` along with the `d3.js`. Once you have done that your `HTML` file should look like this. Its important to note that the graph uses `Canvas` rather than `SVG` so the font and colors cannot be changed. That being said the main difference between `SVG` and `Canvas` is `Canvas` draws 2D graphics on the fly with a `JavaScript` while `SVG` is `XML` based, which means that every element is available within the `SVG` DOM.  
 
 ```HTML
 <!DOCTYPE html>
