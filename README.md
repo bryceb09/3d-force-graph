@@ -5,6 +5,9 @@ Spring 2018 | Geography 4/572 | Geovisualization: Geovisual Analytics
 
 The force graph is created using D3 which, is a JavaScript library used for visualizing data with HTML, SVG, and CSV. The graph will be comprised of nodes and links connecting information to form a graph that will have the ability to allow users to manipulate through pulling the nodes, rotating the graph (since it has a 3D aspect), and mouse over to view the data that each node represents. 
 
+## About the Data
+The data used for the 3D Force Graph is describing the linkages bewteen various friends. The poeple are the nodes and the links are the friendships they have with one another. The data is comprised of 20 names with different frequencies of particles based on how close of friends they are. It is important to note that the force graph will only work if the data is broken up into nodes and links with some characteristics linking the nodes to eachother. 
+
 ## 1. Set up the workspace
 
 In your IDE (Webstorm), open a blank `HTML` document to prepare for editing.
@@ -17,7 +20,7 @@ We will begin by adding the `d3.js` file to your blank `HTML` by adding it insid
 
 ## 1.1 Adding Style Tag
 
-As of now you have added the `d3.js` file to your blank `HTML` file. Now we will add the `style` tag to your document which will be placed in the `head` along with the `d3.js`. Once you have done that your `HTML` file should look like this.
+As of now you have added the `d3.js` file to your blank `HTML` file. Now we will add the `style` tag to your document which will be placed in the `head` along with the `d3.js`. Once you have done that your `HTML` file should look like this. Its important to note that the graph uses `Canvas` rather than `SVG` so the font and colors cannot be changed. That being said the main difference between `SVG` and `Canvas` is `Canvas` draws 2D graphics on the fly with a `JavaScript` while `SVG` is `XML` based, which means that every element sn available within the `SVG` DOM.  
 
 ```HTML
 <!DOCTYPE html>
@@ -53,7 +56,7 @@ The first line of the `script` is `const Graph = ForceGraph3D()` this means you 
 ```JavaScript
  const Graph = ForceGraph3D()
     (document.getElementById('3d-graph'))
-        .jsonUrl('../datasets/miserables.json')
+        .jsonUrl('assets/friends.json')
         .nodeLabel('id')
         .nodeAutoColorBy('group')
         .linkDirectionalParticles("value")
@@ -62,11 +65,4 @@ The first line of the `script` is `const Graph = ForceGraph3D()` this means you 
 
 ## The Final Product
 
-<div class="READ.ME"
-<iframe sandbox="allow-popups allow-scripts allow-forms allow-same-origin" src="https://bryceb09.github.io/3d-force-graph/" marginwidth="0" marginheight="0" style="height:500px;" scrolling="no"></iframe>
-</div>
-
-
-
-https://bryceb09.github.io/3d-force-graph/
 
